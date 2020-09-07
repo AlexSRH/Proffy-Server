@@ -1,0 +1,25 @@
+{
+  "compilerOptions": {
+    "target": "es2017",
+    "module": "commonjs",
+    "lib": ["ES6"],
+    "outDir": "./dist",
+    "removeComments": true,
+    "typeRoots": ["./node_modules/@types", "./src/@types"],
+    "esModuleInterop": true,
+    "resolveJsonModule": true,
+    "skipLibCheck": true,
+    "forceConsistentCasingInFileNames": true,
+    "baseUrl": ".",
+    "paths": {
+      "@models/*": ["./src/models/*"],
+      "@useCases/*": ["./src/useCases/*"],
+      "@configs/*": ["./src/configs/*"],
+      "@database/*": ["./src/database/*"],
+      "@repositories/*": ["./src/repositories/*"],
+      "~/*": ["./*"]
+    }
+  },
+  "include": ["src/**/*"],
+  "exclude": ["node_modules", "**/*.spec.ts"]
+}
