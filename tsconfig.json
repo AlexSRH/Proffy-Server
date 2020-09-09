@@ -9,16 +9,7 @@
     "esModuleInterop": true,
     "resolveJsonModule": true,
     "skipLibCheck": true,
-    "forceConsistentCasingInFileNames": true,
-    "baseUrl": ".",
-    "paths": {
-      "@models/*": ["./src/models/*"],
-      "@useCases/*": ["./src/useCases/*"],
-      "@configs/*": ["./src/configs/*"],
-      "@database/*": ["./src/database/*"],
-      "@repositories/*": ["./src/repositories/*"],
-      "~/*": ["./*"]
-    }
+    "forceConsistentCasingInFileNames": true
   },
   "include": ["src/**/*"],
   "exclude": ["node_modules", "**/*.spec.ts"]

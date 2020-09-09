@@ -1,5 +1,5 @@
 import 'dotenv/config'
-import * as dbConfigs from '~/knexfile'
+import * as dbConfigs from '../../knexfile'
 
 interface IDbConfigs {
   development: object
